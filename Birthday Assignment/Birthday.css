@@ -1,0 +1,20 @@
+h1 {
+    letter-spacing: 20px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    border-bottom: 5.5px solid black;
+}
+.boxmodel {
+    border: 5.5px solid black;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+.NSYNC {
+    
+}
+body {
+    background-image: url(Background\ image.jpeg);
+    background-repeat: no-repeat;
+}
