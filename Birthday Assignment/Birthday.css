@@ -24,11 +24,17 @@ h1 {
     letter-spacing: 20px;
     text-align: center;
 }
+h1:hover{
+  transform: scale(1.1);
+}      
 h2 {
     text-align: center;
     border-bottom: 5.5px solid black;
     
 }
+h2:hover{
+  transform: scale(1.1);
+}      
 .boxmodel{
     color: white;
     font-size: 26px;
