@@ -1,3 +1,25 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: maroon;
+    width: 100px;
+    color: white;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
+  }
+  
+  nav a:hover {
+    background-color: grey;
+    width: 200px;
+    color: black;
+  } 
+ 
 h1 {
     letter-spacing: 20px;
     text-align: center;
@@ -5,15 +27,37 @@ h1 {
 h2 {
     text-align: center;
     border-bottom: 5.5px solid black;
-}
-.boxmodel {
-    border: 5.5px solid black;
-    padding: 20px 20px 20px 20px;
-    background-color: white;
-}
-.NSYNC {
     
 }
+.boxmodel{
+    color: white;
+    font-size: 26px;
+    width: 875px;
+    height: 100px;
+    background-color: #300;
+    animation: back-ani 15s linear infinite;
+    border: 6px solid black;
+  }
+  
+  @keyframes back-ani {
+    0%   {background-color:maroon}
+    50%  {background-color:navy}
+    100% {background-color:maroon}
+  }
+#slide3 {
+   
+    width: 500px;
+  }
+  
+  #slide3 img {
+    width: 880px;
+    height: 750px;
+    transition: .1s all;
+  }
+  
+  #slide3:hover img {
+    filter: blur(10px);
+  }
 body {
     background-image: url(Background\ image.jpeg);
     background-repeat: no-repeat;
