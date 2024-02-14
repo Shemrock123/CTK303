@@ -1,0 +1,26 @@
+#MarMadeItLogo {
+    width: 500px; display: block;
+
+}
+#Background {
+    animation: dfade 1.8s;
+}
+#Mar {
+    animation: cfade 1.0s;
+}
+
+#Made {
+    animation: cfade 1.2s;
+}
+
+#It {
+    animation: cfade 1.4s;
+}
+@keyframes cfade {
+    0%   { transform: translate(0, -400px);}
+    100% { transform: translate(0, 0);}
+}
+@keyframes dfade {
+    0%   { transform: translate(-200px, 0);}
+    100% { transform: translate(0, 0);}
+}
