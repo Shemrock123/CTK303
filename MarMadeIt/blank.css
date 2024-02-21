@@ -1,0 +1,72 @@
+#MarMadeItLogo {
+    width: 500px; display: block;
+   
+
+}
+#Background {
+
+    transform: translate(-200px, -400px);
+}
+#Mar {
+  
+    transform: translate(-200px, -400px);
+}
+
+#Made {
+   
+    transform: translate(-200px, -400px);
+}
+
+#It {
+  
+    transform: translate(-200px, -400px);
+} 
+.Back{
+    animation: dfade 1.8s;
+    animation-fill-mode: forwards;
+}
+.Mar {
+    animation: cfade 1.0s;
+    animation-fill-mode: forwards;
+}
+
+.Made {
+    animation: cfade 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.It {
+    animation: cfade 1.4s;
+    animation-fill-mode: forwards;
+}
+@keyframes cfade {
+    0%   { transform: translate(0, -400px);}
+    100% { transform: translate(0, 0);}
+}
+@keyframes dfade {
+    0%   { transform: translate(-200px, 0);}
+    100% { transform: translate(0, 0);}
+}
+
+header {
+    height: 30vh; /* 90% of viewport (window) height */
+    width: 100%;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+section { 
+    height: 90vh; /* 90% of viewport (window) height */
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
